@@ -2,6 +2,9 @@
 # pip3 install gtts
 # pip3 install playsound
 
+# Listado Idiomas
+# https://cloud.google.com/translate/docs/languages?hl=es-419
+
 # Importaciones
 import sys
 import os

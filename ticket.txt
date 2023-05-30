@@ -1,0 +1,4 @@
+Cliente: Carlos Jair Aceves
+Factura: 0002
+Producto: Carro
+Total a pagar: $232000.0 MX
