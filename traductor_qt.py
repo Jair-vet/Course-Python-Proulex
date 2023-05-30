@@ -122,7 +122,6 @@ class Ventana(QWidget):
         self.btnTraducir.setText("Traducir")
         self.btnTraducir.setGeometry(530, 250, 130, 40)
         self.btnTraducir.setFont(QFont("Calibri Light", 14))
-        # self.btnTraducir.clicked.connect()
         self.btnTraducir.setStyleSheet(
             """
             QPushButton {
@@ -130,6 +129,12 @@ class Ventana(QWidget):
                 color:#000;
                 border-radius: 10px;
                 border:3px solid #00FF91
+            }
+            QPushButton:hover {
+                background-color:#12864A; 
+                color:#fff;
+                border-radius: 10px;
+                border:3px solid #0BEBF3
             }
             
             """)
@@ -139,7 +144,6 @@ class Ventana(QWidget):
         self.btnLimpiar.setText("Limpiar")
         self.btnLimpiar.setGeometry(530, 300, 130, 40)
         self.btnLimpiar.setFont(QFont("Calibri Light", 14))
-        # self.btnLimpiarir.clicked.connect()
         self.btnLimpiar.setStyleSheet(
             """
             QPushButton {
@@ -147,6 +151,12 @@ class Ventana(QWidget):
                 color:#000;
                 border-radius: 10px;
                 border:3px solid #00FF91
+            }
+            QPushButton:hover {
+                background-color:#12864A; 
+                color:#fff;
+                border-radius: 10px;
+                border:3px solid #0BEBF3
             }
             
             """)
@@ -156,7 +166,6 @@ class Ventana(QWidget):
         self.btnGuardar.setText("Guardar")
         self.btnGuardar.setGeometry(530, 350, 130, 40)
         self.btnGuardar.setFont(QFont("Calibri Light", 14))
-        # self.btnGuardar.clicked.connect()
         self.btnGuardar.setStyleSheet(
             """
             QPushButton {
@@ -164,6 +173,12 @@ class Ventana(QWidget):
                 color:#000;
                 border-radius: 10px;
                 border:3px solid #00FF91
+            } 
+            QPushButton:hover {
+                background-color:#12864A; 
+                color:#fff;
+                border-radius: 10px;
+                border:3px solid #0BEBF3
             }
             
             """)
@@ -173,7 +188,6 @@ class Ventana(QWidget):
         self.btnEscuchar.setText("Escuchar")
         self.btnEscuchar.setGeometry(530, 400, 130, 40)
         self.btnEscuchar.setFont(QFont("Calibri Light", 14))
-        # self.btnEscuchar.clicked.connect()
         self.btnEscuchar.setStyleSheet(
             """
             QPushButton {
@@ -182,10 +196,52 @@ class Ventana(QWidget):
                 border-radius: 10px;
                 border:3px solid #00FF91
             }
+             QPushButton:hover {
+                background-color:#12864A; 
+                color:#fff;
+                border-radius: 10px;
+                border:3px solid #0BEBF3
+            }
             
             """)
 
+        # Vincular los botones a los metodos
+        self.btnTraducir.clicked.connect(self.traducir)
+        self.btnLimpiar.clicked.connect(self.limpiar)
+        self.btnGuardar.clicked.connect(self.guardar)
+        self.btnEscuchar.clicked.connect(self.escuchar)
 
+
+    # Metodos 
+    def traducir(self):
+        # Texto de Origen a Traducir
+        origen = self.txtEntrada.toPlainText()
+
+        # Si la longuitud es mayor a cero...
+        if len(origen) > 0:
+            # Traducimos
+            try:
+                entrada = self.cbEntrada.currentText()  # Establecer los valores de entrada
+                salida = self.cbSalida.currentText()    # Establecer los valores de salida
+                traductor = GoogleTranslator( source = entrada, target = salida )  # Objeto que recibe entrada/salida 
+                resultado = traductor.translate(origen) # Se realiza la traducción
+                self.txtSalida.setText(resultado)  # Enviamos el texto traducido a Salida
+            except Exception as e:
+                QMessageBox.warning(self, "Advertencia", str(e))
+        else: 
+            # No Traducimos
+            QMessageBox.warning(self, "Advertencia", "No hay un texto por Traducir")
+    
+    def limpiar(self):
+        self.txtEntrada.setText("")
+        self.txtSalida.setText("")
+        QMessageBox.information(self, "Aviso", "Se limpiaron las cajas de Texto")
+
+    def guardar(self):
+        pass
+
+    def escuchar(self):
+        pass
 
 # Estructura que ejecuta la App
 if __name__ == "__main__":
