@@ -1,0 +1,8 @@
+Python
+==================================
+Variables, operaciones y fichero
+==================================
+El resultado de la suma es: 107.0 
+El resultado de la resta es: -91.19999999999999 
+El resultado de la multiplicación es: 782.89 
+El resultado de la división es: 0.07971745711402624 
