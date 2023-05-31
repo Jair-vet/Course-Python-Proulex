@@ -69,8 +69,8 @@ class Ventana(QWidget):
         
         # ! Salida
         self.cbSalida = QComboBox(self)
-        self.cbSalida.addItem("es")
         self.cbSalida.addItem("en")
+        self.cbSalida.addItem("es")
         self.cbSalida.addItem("fr")
         self.cbSalida.addItem("ja")
         self.cbSalida.addItem("de")
@@ -241,10 +241,36 @@ class Ventana(QWidget):
         QMessageBox.information(self, "Aviso", "Se limpiaron las cajas de Texto")
 
     def guardar(self):
-        pass
+        # Almacenar el texto traducido
+        traduccion = self.txtSalida.toPlainText()
+
+        # Si la longitud del texto es mayor a cero...
+        if len(traduccion) > 0:
+            try:
+                fichero = open("/Users/jairaceves/Documents/Curso Python/traduccion.txt", "w")
+                fichero.write("Traducción con Pyhon" + os.linesep)
+                fichero.write(traduccion)
+                fichero.close()
+                QMessageBox.information(self, "Aviso", "Archivo guardado con exito")
+            except Exception as e:
+                QMessageBox.warning(self, "Advertencia", str(e))
+        else:
+            QMessageBox.warning(self, "Advertencia", "No hay un texto Traducido")
 
     def escuchar(self):
-        pass
+        # Almacenar el texto traducido
+        traduccion = self.txtSalida.toPlainText()
+
+        # Si la longitud del texto es mayor a cero...
+        if len(traduccion) > 0:
+            try:
+                sonido = gTTS( text=traduccion, lang=self.cbSalida.currentText())
+                sonido.save("/Users/jairaceves/Documents/Curso Python/voz.mp3")
+                os.system("/Users/jairaceves/Documents/Curso Python/voz.mp3")
+            except Exception as e:
+                QMessageBox.warning(self, "Advertencia", str(e))
+        else:
+            QMessageBox.warning(self, "Advertencia", "No hay un texto Traducido")
 
 # Estructura que ejecuta la App
 if __name__ == "__main__":
