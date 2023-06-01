@@ -304,6 +304,19 @@ class Administracion(QMainWindow):
             """)
        
 
+    def registrar(self):
+        pass
+
+    def limpiar(self):
+        self.txtPaterno.setText("")
+        self.txtMaterno.setText("")
+        self.txtNombre.setText("")
+        self.txtEdad.setText("")
+        self.cbrol.setCurrentIndex(0)
+        self.txtCorreo.setText("")
+        self.txtCurp.setText("")
+
+        QMessageBox.information(self, "Aviso", "Se limpió el Formulario")
 
 # Estructura que ejecuta la App
 if __name__ == "__main__":
