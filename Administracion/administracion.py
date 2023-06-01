@@ -302,10 +302,68 @@ class Administracion(QMainWindow):
             }
             
             """)
-       
+
+
+        self.btnRegistrar.clicked.connect(self.registrar)
+        self.btnLimpiar.clicked.connect(self.limpiar)
 
     def registrar(self):
-        pass
+        # Validaciones
+        paterno = self.txtPaterno.text()
+        materno = self.txtMaterno.text()
+        nombre = self.txtNombre.text()
+        edad = self.txtEdad.text()
+        rol = self.cbrol.currentText()
+        correo = self.txtCorreo.text()
+        curp = self.txtCurp.text()
+
+        # Verificar que todas las cajas contengan datos
+        lista = [paterno, materno, nombre]
+        for elemento in lista:
+           
+            if elemento == "":
+               QMessageBox.warning(self,"Aviso","Hay datos vacios")
+               return
+            if not elemento.isalpha():
+               QMessageBox.warning(self,"Error","Solo puedes escribir letras")
+               return
+
+        # Verificar que la edad sea numerica
+        if edad == "":
+            QMessageBox.warning(self,"Aviso","La edad esta vacia")
+            return
+        elif not edad.isnumeric():
+            QMessageBox.warning(self,"Error","Error, la edad no es numerica")
+            return
+
+        # Verificar que el correo tenga "@"
+        import re
+
+        if correo == "":
+            QMessageBox.warning(self,"Error","El Correo esta vacio")
+            return
+        elif re.match('^[(a-z0-9\_\-\.)]+@[(a-z0-9\_\-\.)]+\.[(a-z)]{2,4}$',correo.lower()):
+            pass
+        else: 
+            QMessageBox.warning(self,"Error","El correo no es correcto...")
+            return
+
+
+        # Verificar que la cantidad de caracteres sea 18
+        if curp == "":
+            QMessageBox.warning(self,"Aviso","La CURP esta vacia")
+            return
+        if len(curp) != 18:
+            QMessageBox.warning(self,"Aviso","La CURP debe contener 18 caracteres")
+            return
+            
+        respuesta = QMessageBox.question(self,"Pregunta","¿Desea crear el QR?",
+                                        QMessageBox.Yes | QMessageBox.No)            
+
+        if respuesta == QMessageBox.Yes:
+            print("Sí")
+        else:
+            self.limpiar()
 
     def limpiar(self):
         self.txtPaterno.setText("")
