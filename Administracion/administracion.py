@@ -361,7 +361,9 @@ class Administracion(QMainWindow):
                                         QMessageBox.Yes | QMessageBox.No)            
 
         if respuesta == QMessageBox.Yes:
-            print("Sí")
+            qr = Qr()
+            qr.crear_qr(rol,curp)
+            QMessageBox.information(self, "QR", "Se generó el QR")
         else:
             self.limpiar()
 

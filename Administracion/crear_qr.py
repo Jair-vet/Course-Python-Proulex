@@ -14,7 +14,7 @@ class Qr():
         qr.make()
 
         # Agregar la imgaen al codigo qr
-        qr_img = qr.make_image(fill_color="#000", back_color="#fff").convert("RGB")
+        qr_img = qr.make_image(fill_color="#25E745", back_color="#2574E7").convert("RGB")
 
         # Guardar la imagen en la carpeta
         if rol == "Administrativo":
