@@ -109,12 +109,51 @@ class Navegador(object):
             }
             """)
 
+        # Metadatos
+        QtCore.QMetaObject.connectSlotsByName(ventana)
 
 class LlamarNavegador(QDialog):
     def __init__(self):
         super().__init__()
         self.navegador = Navegador()
         self.navegador.interfaz(self)
+        
+        # Vincular los botones a los metodos
+        self.navegador.btnAceptar.clicked.connect(self.mostrar_sitio)
+        self.navegador.btnCancelar.clicked.connect(self.cerrar_navegador)
+
+
+    def mostrar_sitio(self):
+        # Guardar el dato de la caja de texto en una variable
+        pagina = self.navegador.txtUrl.text()
+        
+        # Validar que la variable contenga texto
+        if len( pagina ) <= 0:
+            QMessageBox.warning(self,"Advertencia","La caja de texto esta vacia")
+            return
+        
+        # Validar ue la pagina web inicie con el Protocolo https://
+        if not pagina.lower().startswith("https://"):
+            if not pagina.lower().startswith("http://"):
+                QMessageBox.warning(self,"Advertencia","La página Web no es Valida")
+                return
+        
+        # Validar que contenga www
+        '''
+        if not "www" in pagina:
+            QMessageBox.warning(self,"Advertencia","La página no contiene 'www'")
+            return
+        '''
+        # Cargar la página web
+        self.navegador.marco.load(QUrl(self.navegador.txtUrl.text()))
+
+
+    def cerrar_navegador(self):
+        respuesta = QMessageBox.question(self,"Cerrar","¿Desea cerrar el Navegador?")
+        if respuesta == QMessageBox.Yes:
+            self.close()
+        else:
+            QMessageBox.information(self,"Aviso","No se cerrará el Navegador")
 
 # Estructura de ejecución
 if __name__ == "__main__":
