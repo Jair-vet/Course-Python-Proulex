@@ -23,3 +23,5 @@ print(f"El valor Medio de la serie es: {s.mean()}")
 # Desviacion Estandar
 print(f"La desviación estándar es: {s.std()}")
 '''
+
+print(s.describe())
