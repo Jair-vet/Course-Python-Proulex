@@ -1,0 +1,157 @@
+,estado,estado_ab,condado,partido,candidato,votos,fraccion_votos
+73,Alabama,AL,Jefferson,Democrat,Hillary Clinton,67357,0.816
+97,Alabama,AL,Mobile,Democrat,Hillary Clinton,28927,0.827
+101,Alabama,AL,Montgomery,Democrat,Hillary Clinton,28650,0.862
+764,Arizona,AZ,Maricopa,Democrat,Hillary Clinton,126988,0.581
+770,Arizona,AZ,Pima,Democrat,Hillary Clinton,56317,0.573
+943,Arkansas,AR,Pulaski,Democrat,Hillary Clinton,34862,0.764
+1350,California,CA,Alameda,Democrat,Hillary Clinton,107102,0.537
+1362,California,CA,Contra Costa,Democrat,Hillary Clinton,69809,0.594
+1368,California,CA,Fresno,Democrat,Hillary Clinton,32895,0.595
+1386,California,CA,Los Angeles,Democrat,Hillary Clinton,590502,0.57
+1390,California,CA,Marin,Democrat,Hillary Clinton,27238,0.576
+1408,California,CA,Orange,Democrat,Hillary Clinton,123723,0.546
+1414,California,CA,Riverside,Democrat,Hillary Clinton,73724,0.599
+1416,California,CA,Sacramento,Democrat,Hillary Clinton,68248,0.569
+1420,California,CA,San Bernardino,Democrat,Hillary Clinton,71246,0.572
+1422,California,CA,San Diego,Democrat,Hillary Clinton,139813,0.551
+1424,California,CA,San Francisco,Democrat,Hillary Clinton,85070,0.556
+1426,California,CA,San Joaquin,Democrat,Hillary Clinton,25118,0.598
+1430,California,CA,San Mateo,Democrat,Hillary Clinton,47358,0.609
+1432,California,CA,Santa Barbara,Democrat,Hillary Clinton,23543,0.502
+1434,California,CA,Santa Clara,Democrat,Hillary Clinton,109963,0.605
+1436,California,CA,Santa Cruz,Democrat,Hillary Clinton,20105,0.442
+1444,California,CA,Solano,Democrat,Hillary Clinton,31753,0.568
+1446,California,CA,Sonoma,Democrat,Hillary Clinton,44923,0.509
+1460,California,CA,Ventura,Democrat,Hillary Clinton,45848,0.538
+2615,Delaware,DE,New Castle,Democrat,Hillary Clinton,38580,0.595
+2636,Florida,FL,Brevard,Democrat,Hillary Clinton,31835,0.597
+2638,Florida,FL,Broward,Democrat,Hillary Clinton,132527,0.725
+2656,Florida,FL,Duval,Democrat,Hillary Clinton,58632,0.672
+2682,Florida,FL,Hillsborough,Democrat,Hillary Clinton,68936,0.628
+2696,Florida,FL,Lee,Democrat,Hillary Clinton,27940,0.627
+2698,Florida,FL,Leon,Democrat,Hillary Clinton,27333,0.565
+2712,Florida,FL,Miami-Dade,Democrat,Hillary Clinton,129467,0.747
+2722,Florida,FL,Orange,Democrat,Hillary Clinton,66654,0.638
+2726,Florida,FL,Palm Beach,Democrat,Hillary Clinton,103369,0.715
+2728,Florida,FL,Pasco,Democrat,Hillary Clinton,21760,0.583
+2730,Florida,FL,Pinellas,Democrat,Hillary Clinton,63699,0.603
+2732,Florida,FL,Polk,Democrat,Hillary Clinton,29328,0.63
+2738,Florida,FL,Sarasota,Democrat,Hillary Clinton,25881,0.611
+2740,Florida,FL,Seminole,Democrat,Hillary Clinton,22069,0.583
+2754,Florida,FL,Volusia,Democrat,Hillary Clinton,26276,0.602
+3090,Georgia,GA,Clayton,Democrat,Hillary Clinton,25130,0.816
+3094,Georgia,GA,Cobb,Democrat,Hillary Clinton,39277,0.635
+3114,Georgia,GA,DeKalb,Democrat,Hillary Clinton,82348,0.715
+3148,Georgia,GA,Fulton,Democrat,Hillary Clinton,82576,0.711
+3162,Georgia,GA,Gwinnett,Democrat,Hillary Clinton,37465,0.662
+4451,Illinois,IL,Chicago,Democrat,Hillary Clinton,366954,0.536
+4463,Illinois,IL,Cook Suburbs,Democrat,Hillary Clinton,249217,0.536
+4475,Illinois,IL,DuPage,Democrat,Hillary Clinton,59103,0.474
+4521,Illinois,IL,Kane,Democrat,Hillary Clinton,24063,0.435
+4531,Illinois,IL,Lake,Democrat,Hillary Clinton,49750,0.527
+4605,Illinois,IL,St. Clair,Democrat,Hillary Clinton,20987,0.569
+4629,Illinois,IL,Will,Democrat,Hillary Clinton,41651,0.471
+5139,Indiana,IN,Lake,Democrat,Hillary Clinton,43091,0.567
+5145,Indiana,IN,Marion,Democrat,Hillary Clinton,59649,0.504
+7084,Kentucky,KY,Fayette,Democrat,Hillary Clinton,20014,0.528
+7128,Kentucky,KY,Jefferson,Democrat,Hillary Clinton,64090,0.573
+7770,Louisiana,LA,East Baton Rouge,Democrat,Hillary Clinton,32960,0.784
+7808,Louisiana,LA,Orleans,Democrat,Hillary Clinton,40601,0.747
+9118,Maryland,MD,Anne Arundel,Democrat,Hillary Clinton,35659,0.568
+9120,Maryland,MD,Baltimore,Democrat,Hillary Clinton,73099,0.578
+9122,Maryland,MD,Baltimore City,Democrat,Hillary Clinton,81115,0.654
+9142,Maryland,MD,Howard,Democrat,Hillary Clinton,30873,0.603
+9146,Maryland,MD,Montgomery,Democrat,Hillary Clinton,109304,0.67
+9148,Maryland,MD,Prince George's,Democrat,Hillary Clinton,113912,0.742
+9342,Massachusetts,MA,Boston,Democrat,Hillary Clinton,71422,0.575
+12092,Michigan,MI,Genesee,Democrat,Hillary Clinton,31284,0.517
+12124,Michigan,MI,Kent,Democrat,Hillary Clinton,25899,0.373
+12142,Michigan,MI,Macomb,Democrat,Hillary Clinton,47597,0.488
+12168,Michigan,MI,Oakland,Democrat,Hillary Clinton,92296,0.514
+12204,Michigan,MI,Washtenaw,Democrat,Hillary Clinton,30022,0.437
+12206,Michigan,MI,Wayne,Democrat,Hillary Clinton,163886,0.6
+12590,Mississippi,MS,Hinds,Democrat,Hillary Clinton,31386,0.841
+13128,Missouri,MO,Jackson,Democrat,Hillary Clinton,48860,0.529
+13234,Missouri,MO,St. Louis City,Democrat,Hillary Clinton,34458,0.55
+13236,Missouri,MO,St. Louis County,Democrat,Hillary Clinton,89373,0.553
+14598,New Hampshire,NH,Hillsborough,Democrat,Hillary Clinton,28099,0.420990336
+14602,New Hampshire,NH,Rockingham,Democrat,Hillary Clinton,22829,0.423472889
+14690,New Jersey,NJ,Bergen,Democrat,Hillary Clinton,55264,0.618
+14692,New Jersey,NJ,Burlington,Democrat,Hillary Clinton,32712,0.62
+14694,New Jersey,NJ,Camden,Democrat,Hillary Clinton,43720,0.624
+14700,New Jersey,NJ,Essex,Democrat,Hillary Clinton,75071,0.732
+14704,New Jersey,NJ,Hudson,Democrat,Hillary Clinton,49798,0.665
+14708,New Jersey,NJ,Mercer,Democrat,Hillary Clinton,29505,0.662
+14710,New Jersey,NJ,Middlesex,Democrat,Hillary Clinton,47978,0.611
+14712,New Jersey,NJ,Monmouth,Democrat,Hillary Clinton,30835,0.582
+14714,New Jersey,NJ,Morris,Democrat,Hillary Clinton,24226,0.584
+14718,New Jersey,NJ,Passaic,Democrat,Hillary Clinton,29538,0.677
+14726,New Jersey,NJ,Union,Democrat,Hillary Clinton,40972,0.689
+14793,New Mexico,NM,Bernalillo,Democrat,Hillary Clinton,36937,0.491
+14962,New York,NY,Bronx,Democrat,Hillary Clinton,95772,0.7
+14964,New York,NY,Brooklyn,Democrat,Hillary Clinton,174236,0.6
+14988,New York,NY,Erie,Democrat,Hillary Clinton,50199,0.504
+15012,New York,NY,Manhattan,Democrat,Hillary Clinton,177496,0.663
+15014,New York,NY,Monroe,Democrat,Hillary Clinton,37309,0.518
+15018,New York,NY,Nassau,Democrat,Hillary Clinton,70947,0.626
+15024,New York,NY,Onondaga,Democrat,Hillary Clinton,20397,0.53
+15038,New York,NY,Queens,Democrat,Hillary Clinton,122386,0.616
+15060,New York,NY,Suffolk,Democrat,Hillary Clinton,49926,0.547
+15076,New York,NY,Westchester,Democrat,Hillary Clinton,69628,0.674
+15318,North Carolina,NC,Cumberland,Democrat,Hillary Clinton,22744,0.639
+15330,North Carolina,NC,Durham,Democrat,Hillary Clinton,35845,0.575
+15334,North Carolina,NC,Forsyth,Democrat,Hillary Clinton,24446,0.58
+15348,North Carolina,NC,Guilford,Democrat,Hillary Clinton,37880,0.56
+15386,North Carolina,NC,Mecklenburg,Democrat,Hillary Clinton,71265,0.603
+15450,North Carolina,NC,Wake,Democrat,Hillary Clinton,77927,0.534
+15996,Ohio,OH,Cuyahoga,Democrat,Hillary Clinton,125914,0.632
+16010,Ohio,OH,Franklin,Democrat,Hillary Clinton,84654,0.553
+16022,Ohio,OH,Hamilton,Democrat,Hillary Clinton,57687,0.595
+16054,Ohio,OH,Lorain,Democrat,Hillary Clinton,21144,0.561
+16056,Ohio,OH,Lucas,Democrat,Hillary Clinton,32137,0.569
+16060,Ohio,OH,Mahoning,Democrat,Hillary Clinton,21000,0.593
+16074,Ohio,OH,Montgomery,Democrat,Hillary Clinton,33352,0.594
+16112,Ohio,OH,Stark,Democrat,Hillary Clinton,21515,0.565
+16114,Ohio,OH,Summit,Democrat,Hillary Clinton,38874,0.566
+16598,Oklahoma,OK,Oklahoma,Democrat,Hillary Clinton,34255,0.501
+16632,Oklahoma,OK,Tulsa,Democrat,Hillary Clinton,25372,0.474
+17033,Oregon,OR,Clackamas,Democrat,Hillary Clinton,26378,0.485
+17067,Oregon,OR,Lane,Democrat,Hillary Clinton,26772,0.39
+17079,Oregon,OR,Multnomah,Democrat,Hillary Clinton,65735,0.43
+17095,Oregon,OR,Washington,Democrat,Hillary Clinton,36321,0.465
+17211,Pennsylvania,PA,Allegheny,Democrat,Hillary Clinton,122399,0.551
+17219,Pennsylvania,PA,Berks,Democrat,Hillary Clinton,20470,0.483
+17225,Pennsylvania,PA,Bucks,Democrat,Hillary Clinton,46876,0.559
+17237,Pennsylvania,PA,Chester,Democrat,Hillary Clinton,32985,0.557
+17253,Pennsylvania,PA,Delaware,Democrat,Hillary Clinton,44775,0.597
+17277,Pennsylvania,PA,Lackawanna,Democrat,Hillary Clinton,22971,0.565
+17287,Pennsylvania,PA,Luzerne,Democrat,Hillary Clinton,20530,0.52
+17299,Pennsylvania,PA,Montgomery,Democrat,Hillary Clinton,75333,0.59
+17309,Pennsylvania,PA,Philadelphia,Democrat,Hillary Clinton,212785,0.626
+17337,Pennsylvania,PA,Westmoreland,Democrat,Hillary Clinton,24968,0.543
+17767,South Carolina,SC,Charleston,Democrat,Hillary Clinton,26535,0.66
+17827,South Carolina,SC,Richland,Democrat,Hillary Clinton,39243,0.758
+18483,Tennessee,TN,Davidson,Democrat,Hillary Clinton,43691,0.653
+18603,Tennessee,TN,Shelby,Democrat,Hillary Clinton,66465,0.801
+19140,Texas,TX,Bexar,Democrat,Hillary Clinton,76502,0.668
+19172,Texas,TX,Cameron,Democrat,Hillary Clinton,20326,0.682
+19196,Texas,TX,Collin,Democrat,Hillary Clinton,23591,0.592
+19224,Texas,TX,Dallas,Democrat,Hillary Clinton,113574,0.715
+19250,Texas,TX,El Paso,Democrat,Hillary Clinton,36067,0.66
+19268,Texas,TX,Fort Bend,Democrat,Hillary Clinton,29248,0.746
+19312,Texas,TX,Harris,Democrat,Hillary Clinton,156729,0.705
+19326,Texas,TX,Hidalgo,Democrat,Hillary Clinton,40276,0.691
+19550,Texas,TX,Tarrant,Democrat,Hillary Clinton,67590,0.651
+19564,Texas,TX,Travis,Democrat,Hillary Clinton,69314,0.482
+22771,Virginia,VA,Arlington,Democrat,Hillary Clinton,25561,0.669
+22807,Virginia,VA,Chesterfield,Democrat,Hillary Clinton,22674,0.661
+22831,Virginia,VA,Fairfax,Democrat,Hillary Clinton,86898,0.63
+22873,Virginia,VA,Henrico,Democrat,Hillary Clinton,28121,0.698
+22897,Virginia,VA,Loudoun,Democrat,Hillary Clinton,21171,0.586
+22957,Virginia,VA,Prince William,Democrat,Hillary Clinton,26439,0.638
+22967,Virginia,VA,Richmond City,Democrat,Hillary Clinton,21822,0.606
+23003,Virginia,VA,Virginia Beach,Democrat,Hillary Clinton,22352,0.63
+24182,Wisconsin,WI,Dane,Democrat,Hillary Clinton,61072,0.373
+24238,Wisconsin,WI,Milwaukee,Democrat,Hillary Clinton,100932,0.517
+24292,Wisconsin,WI,Waukesha,Democrat,Hillary Clinton,24784,0.484
