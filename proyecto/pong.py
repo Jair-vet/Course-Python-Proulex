@@ -14,6 +14,9 @@ pong.tracer(0)
 puntaje_a = 0
 puntaje_b = 0
 
+# Variable Autonomo
+autonomo = False
+
 # GOTO(eje horizontal, eje vertical)
 
 # Raqueta A
@@ -154,12 +157,25 @@ def reiniciar_pantalla():
     raqueta_b.goto(350,0)
 
 def movimiento_autonomo():
+    global autonomo
+
     letrero = turtle.Turtle()
     letrero.penup()
-    letrero.color("#FCFF00")
+    letrero.hideturtle()
     letrero.goto(0,200)
-    letrero.write("Movimiento Autonomo Activado", align="center",
-                 font=("Fixedsys",24,"bold"))
+
+    if autonomo == False:
+        autonomo = True
+        letrero.color("#FCFF00")
+        letrero.write("Movimiento Autonomo Activado", align="center",
+                      font=("Fixedsys",20,"bold"))
+    else:
+        autonomo = False
+        letrero.color("#000000")
+        letrero.write("Movimiento Autonomo Activado", align="center",
+                      font=("Fixedsys",24,"bold"))
+
+
 # Listen
 pong.listen()
 pong.onkeypress(raqueta_a_arriba,"w")
@@ -174,6 +190,13 @@ pong.onkeypress(bye,"x")
 # Actualización de la ventana
 while True:
     try:
+
+        # Controlar el Movimiento Autonomo
+        if autonomo == True:
+            raqueta_a.sety(pelota.ycor()) # Coordenadas del la pelota 
+            raqueta_b.sety(pelota.ycor()) 
+
+
         # Actualización de los componentes
         pong.update()
 
